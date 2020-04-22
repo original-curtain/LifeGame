@@ -31,4 +31,16 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"/>
 
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="生命游戏：\n
+        1.每个点周围的8个点为邻居\n
+        2.当这个点上有棋子，邻居棋子数为2或者3时，该点棋子存活，否则死亡\n
+        3.当这个点没有棋子，邻居棋子数为3时，该点生成棋子"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
